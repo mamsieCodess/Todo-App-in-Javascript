@@ -82,6 +82,8 @@ input{
 }
 
 
+
+
 .tasks{
    height: 100%;
     border-radius: 100px 0 0 0;
@@ -132,6 +134,12 @@ input{
     color:grey;
 }
 
+.completed{ /*applied when the cicle in clicked*/
+    text-decoration: line-through;
+    opacity: 0.5;
+    transition: all 0.5s ease;
+}
+
 .fa-trash{
     position:absolute;
     right:10px;
@@ -174,9 +182,7 @@ input{
 #add:hover{
     color:white;
 }
-a{
-  te
-}
+
 
 
 @media screen and (max-width:768px){

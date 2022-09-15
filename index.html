@@ -7,16 +7,15 @@
     <title>To-do App</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <script
       src="https://kit.fontawesome.com/648e6e8434.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
-
     <div class="app">
       <header>
         <h1>Welcome back mate.</h1>
@@ -26,7 +25,6 @@
         <form>
           <h2>Ready to create a task?</h2>
           <div class="options">
-
             <span id="dateLabel"
               >Due Date: <i class="fa-sharp fa-solid fa-arrow-turn-up"></i
             ></span>
@@ -34,7 +32,6 @@
             <span id="nameLabel"
               >Task Name:<i class="fa-sharp fa-solid fa-arrow-turn-down"></i
             ></span>
-
           </div>
 
           <input type="text" id="nameInput" placeholder="I want to ... " />
@@ -50,28 +47,9 @@
       <div class="tasks">
         <h2>Your Tasks</h2>
 
-        <div class="newTask">
-          <span id="dueDate">2022-09-13</span>
-          <p id="taskName">Going for a run</p>
-
-          <div class="options">
-            <span><i class="fa-regular fa-circle"></i></span>
-            <span><i class="fa-sharp fa-solid fa-pen-to-square"></i></span>
-            <span><i class="fa-sharp fa-solid fa-trash"></i></span>
-          </div>
+        <div class="tasksList">
+          
         </div>
-
-        <div class="newTask">
-          <span id="dueDate">2022-09-14</span>
-          <p id="taskName">Studying at the library</p>
-
-          <div class="options">
-            <span><i class="fa-regular fa-circle"></i></span>
-            <span><i class="fa-sharp fa-solid fa-pen-to-square"></i></span>
-            <span><i class="fa-sharp fa-solid fa-trash"></i></span>
-          </div>
-        </div>
-
         <button type="submit" id="add">+</button>
       </div>
     </div>
