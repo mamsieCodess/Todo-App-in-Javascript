@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+
+.app{
+    width:100%;
+    background-color: #F15412;
+    height:600px;
+    overflow-y: scroll;
+    position: relative;
+   
+
+}
+header{
+    height:30%;
+    padding:10px;
+    position: relative;
+    border-radius:0 0 100px 0;
+    background-color: #ffffffa2;
+    text-align: center;
+    
+
+
+}
+h2{
+    margin:40px;
+    padding:10px;
+    font-size:30px;
+    
+}
+
+
+input{
+    border: none;
+    border-radius: 0 10px 0 10px;
+    height: 30px;
+    margin-left: 10px;
+    padding:10px;
+    background-color: rgba(255, 255, 255, 0.129);
+
+
+
+}
+
+#add1{
+    height:45px;
+    width:100px;
+    border-radius: 0 10px 0 10px;
+    opacity: 1;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bolder;
+}
+#add1:hover{
+    background-color: #bbb5b398;
+    cursor: pointer;
+}
+#nameLabel{
+    position: absolute;
+    left:5px;
+    bottom:5px;
+    padding:0px;
+    opacity: 0.7;
+}
+
+#dateLabel{
+    position: absolute;
+    left:170px;
+    top:60px;
+    opacity: 0.7;
+
+}
+#error-msg{
+    color:rgb(255, 255, 255);
+    font-size: small;
+    position: absolute;
+    left: 40px;
+    bottom: 220px;
+    visibility: hidden;
+}
+
+
+.tasks{
+   height: 100%;
+    border-radius: 100px 0 0 0;
+    padding-left:20px;
+    position:relative;
+    background-color: rgba(249, 249, 249, 0.631);
+    
+}
+.newTask{
+    background-color:whitesmoke;
+    border-radius: 0 30px 0 30px;
+    padding:10px 0 1px 10px;
+    margin:0 65px 15px 60px;
+    height:70px;
+    max-width: 500px;
+}
+
+.newTask:hover{
+    background-color:rgba(249, 249, 249, 0.631);
+}
+#taskName{
+    margin: 0;
+    font-weight:bolder;
+}
+
+#error-message{
+    margin: 0;
+    font-size:small;
+    color:red;
+}
+
+#dueDate{
+    color:grey;
+    font-size: small;
+}
+.options{
+    position: relative;
+}
+.fa-circle{
+    position:absolute;
+    bottom:40px;
+    left:-35px;
+    font-size: larger;
+    cursor: pointer;
+    
+}
+.fa-circle:hover{
+    color:grey;
+}
+
+.fa-trash{
+    position:absolute;
+    right:10px;
+    bottom:5px;
+    cursor:pointer;
+    font-size: larger;
+    
+
+}
+.fa-trash:hover{
+    color:grey;
+}
+
+.fa-pen-to-square{
+    position: absolute;
+    right:30px;
+    bottom:5px;
+    cursor: pointer;
+    font-size: larger;
+}
+.fa-pen-to-square:hover{
+    color:grey;
+}
+
+#add{
+    height:50px;
+    width:50px;
+    border-radius: 10px;
+    font-size: x-large;
+    opacity: 1;
+    position: fixed;
+    bottom:90px;
+    right:35px;
+    border: none;
+    background-color: #f15512;
+    text-shadow:0 0 10px rgb(27, 21, 21);
+    cursor: pointer;
+    margin-right: 0;
+}
+#add:hover{
+    color:white;
+}
+a{
+  te
+}
+
+
+@media screen and (max-width:768px){
+
+}
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:992px){ /*devices between 768px and 992px */
+
+}
+
+
+
+
+@media screen and (min-width:992px){/*devices form 992px and above*/}
