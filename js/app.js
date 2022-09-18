@@ -14,7 +14,7 @@ form.addEventListener('submit',(e)=>{
     formValidation();
 })
 
-function formValidation(){
+function formValidation(){ //to ensure that an input is inserted before creating a task
     const emptyField = taskName.value === '';
     if(emptyField){
         msg.style.visibility = 'visible' //make error message visible
@@ -46,7 +46,7 @@ function renderTask(){
     //clear the DOM before rendering to avoid duplication
     tasksList.innerHTML = '';
     //then render the crteaed tasks
-    todos.map((x, y) => {//create it in the following structure and attach it to the tasks div
+    todos.map((x, y) => { //create it in the following structure and attach it to the tasks div
        return (tasksList.innerHTML += `
        
        <div class="newTask id='${y}' ">
